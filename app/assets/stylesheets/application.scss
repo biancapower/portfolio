@@ -14,7 +14,33 @@
  *= require_self
  */
 
+ // font-family: 'Roboto', sans-serif;
+ // FIXME: change from px to em
+
  @import "bootstrap";
+
+.btn-pink {
+  background-color: #FF206E;
+  color: #FFF;
+  font-size: 2em;
+  width: 5em;
+}
+
+.hi, .projects-heading, .contact-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.codepen-projects, .github-projects {
+  font-size: 50px !important;
+}
+
+// HEADER //
+
+  header {
+    width: 100%;
+  }
 
  .header {
    background-color: #FF206E;
@@ -45,3 +71,37 @@
  .social-icons p {
    font-size: 30px;
  }
+
+// ABOUT //
+
+.about-section {
+  background-color: #FBFF12;
+  padding: 5%;
+}
+
+.about-blurb p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  width: 60%;
+}
+
+// PROJECTS SECTION //
+
+.projects-section {
+  background-color: #41EAD4;
+}
+
+// CONTACT SECTION //
+
+.contact-section {
+  background-color: #FBFF12;
+}
+
+// FOOTER //
+
+.footer {
+  background-color: #FF206E;
+  font-size: 2.2em;
+  font-family: 'Roboto', sans-serif;
+}
