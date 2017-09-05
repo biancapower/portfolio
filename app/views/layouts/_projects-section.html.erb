@@ -12,9 +12,31 @@
       <p class="fa fa-github-alt github-projects"></p>
     </div>
   </div>
+  <!-- CAROUSEL -->
   <div class="row d-flex justify-content-center pt-5 pb-5">
-    <img src="http://via.placeholder.com/650x650" alt="">
+    <div id="carouselExampleControls" class="carousel slide projects-carousel" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <%= image_tag "zengarden-image.png", class:"d-block w-100" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "amaysim-image.png", class:"d-block w-100" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "ebgames-image.png", class:"d-block w-100" %>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
+  <!-- end CAROUSEL -->
   <div class="row pb-5">
     <div class="col d-flex justify-content-center">
       <button type="button" class="btn btn-pink">More</button>
