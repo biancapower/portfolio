@@ -15,3 +15,33 @@
  */
 
  @import "bootstrap";
+
+ .header {
+   background-color: #FF206E;
+   height: 120px;
+ }
+
+ .main-nav {
+   background-color: #FF206E;
+ }
+
+ .navbar-toggler {
+   border: none;
+ }
+
+ .fa-bars {
+   font-size: 40px !important;
+ }
+
+ .text-white {
+   color: #FFF;
+ }
+
+ .logo {
+   height: 70px;
+   border: 2px solid white;
+ }
+
+ .social-icons p {
+   font-size: 30px;
+ }
