@@ -22,8 +22,8 @@
 .btn-pink {
   background-color: #FF206E;
   color: #FFF;
-  font-size: 2em;
-  width: 5em;
+  font-size: 1.3em;
+  width: 4em;
 }
 
 .text-white {
@@ -41,7 +41,7 @@
 .hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 .codepen-projects, .github-projects {
@@ -52,7 +52,7 @@
 
  .header {
    background-color: #FF206E;
-   height: 120px;
+   height: 100px;
 
   // added to restrict width of row to viewport //
    margin-left: 0;
@@ -69,16 +69,16 @@
  }
 
  .fa-bars {
-   font-size: 40px !important;
+   font-size: 30px !important;
  }
 
  .logo {
-   height: 70px;
+   height: 50px;
    border: 2px solid white;
  }
 
  .social-icons p {
-   font-size: 30px;
+   font-size: 20px;
  }
 
 // ABOUT //
@@ -90,7 +90,7 @@
 
 .about-blurb p {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: 300;
   width: 60%;
 }
@@ -105,6 +105,10 @@
   width: 80%;
 }
 
+.project-section-social-links {
+  font-size: 2em;
+}
+
 // CONTACT SECTION //
 
 .contact-section {
@@ -115,7 +119,7 @@
 
 .footer {
   background-color: #FF206E;
-  font-size: 2.2em;
+  font-size: 1.5em;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -128,7 +132,7 @@
 
 .projects-social-links {
   background-color: #41EAD4;
-  font-size: 3.3em;
+  font-size: 2em;
 }
 
 .project-zen {
@@ -149,39 +153,28 @@
 }
 
 .project-feature-text {
-  font-size: 2em;
+  font-size: 1.3em;
   max-width: 78%;
   font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 768px) {
 
-  .hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
-    font-size: 2.5em;
+  .fa-bars {
+    font-size: 40px !important;
   }
 
-  .about-blurb p {
-    font-size: 1.5em;
+  .logo {
+    height: 70px;
+    border: 2px solid white;
   }
 
-  .btn-pink {
-    font-size: 1.3em;
-    width: 4em;
+  .social-icons p {
+    font-size: 30px;
   }
 
-  .footer {
-    font-size: 1.5em;
+  .header {
+    height: 120px;
   }
 
-  .project-section-social-links {
-    font-size: 2em;
-  }
-
-  .projects-social-links {
-    font-size: 2em;
-  }
-
-  .project-feature-text {
-    font-size: 1.3em;
-  }
 }
