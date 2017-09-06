@@ -26,6 +26,18 @@
   width: 5em;
 }
 
+.text-white {
+  color: #FFF;
+}
+
+.text-black {
+  color: #000;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
 .hi, .projects-heading, .contact-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -39,12 +51,19 @@
 // HEADER //
 
   header {
-    width: 100%;
+    // width: 100%;
+    // overflow-x: hidden;
   }
+
 
  .header {
    background-color: #FF206E;
    height: 120px;
+
+  // added to restrict width of row to viewport //
+   margin-left: 0;
+   margin-right: 0;
+   width: 100%;
  }
 
  .main-nav {
@@ -57,10 +76,6 @@
 
  .fa-bars {
    font-size: 40px !important;
- }
-
- .text-white {
-   color: #FFF;
  }
 
  .logo {
