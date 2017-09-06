@@ -151,4 +151,37 @@
 .project-feature-text {
   font-size: 2em;
   max-width: 78%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 768px) {
+
+  .hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
+    font-size: 2.5em;
+  }
+
+  .about-blurb p {
+    font-size: 1.5em;
+  }
+
+  .btn-pink {
+    font-size: 1.3em;
+    width: 4em;
+  }
+
+  .footer {
+    font-size: 1.5em;
+  }
+
+  .project-section-social-links {
+    font-size: 2em;
+  }
+
+  .projects-social-links {
+    font-size: 2em;
+  }
+
+  .project-feature-text {
+    font-size: 1.3em;
+  }
 }
