@@ -21,13 +21,19 @@
     <div id="carouselExampleControls" class="carousel slide projects-carousel" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <%= image_tag "zengarden-image.png", class:"d-block w-100" %>
+          <%= link_to "/projects/css-zen-garden" do %> <!-- FIXME: target = "_blank" -->
+            <%= image_tag "zengarden-image.png", class:"d-block w-100" %>
+          <% end %>
         </div>
         <div class="carousel-item">
-          <%= image_tag "amaysim-image.png", class:"d-block w-100" %>
+          <%= link_to "/projects/amaysim-clone" do %> <!-- FIXME: target = "_blank" -->
+            <%= image_tag "amaysim-image.png", class:"d-block w-100" %>
+          <% end %>
         </div>
         <div class="carousel-item">
-          <%= image_tag "ebgames-image.png", class:"d-block w-100" %>
+          <%= link_to "/projects/eb-games-redesign" do %> <!-- FIXME: target = "_blank" -->
+            <%= image_tag "ebgames-image.png", class:"d-block w-100" %>
+          <% end %>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

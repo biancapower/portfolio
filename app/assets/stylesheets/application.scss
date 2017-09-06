@@ -38,7 +38,7 @@
   text-decoration: underline;
 }
 
-.hi, .projects-heading, .contact-heading {
+.hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 4em;
@@ -49,12 +49,6 @@
 }
 
 // HEADER //
-
-  header {
-    // width: 100%;
-    // overflow-x: hidden;
-  }
-
 
  .header {
    background-color: #FF206E;
@@ -123,4 +117,38 @@
   background-color: #FF206E;
   font-size: 2.2em;
   font-family: 'Roboto', sans-serif;
+}
+
+//***** PROJECTS PAGE *****//
+
+.a-project-section {
+  padding-top: 4.5em !important;
+  padding-bottom: 4.5em !important;
+}
+
+.projects-social-links {
+  background-color: #41EAD4;
+  font-size: 3.3em;
+}
+
+.project-zen {
+  background-color: #FBFF12;
+}
+
+.project-ebgames {
+  background-color: #41EAD4;
+}
+
+.project-amaysim {
+  background-color: #FBFF12;
+}
+
+.project-feature-image {
+  max-width: 80%;
+  margin: 2.5em auto;
+}
+
+.project-feature-text {
+  font-size: 2em;
+  max-width: 78%;
 }
