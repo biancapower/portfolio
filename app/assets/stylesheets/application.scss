@@ -56,6 +56,10 @@
   background-color: #FF206E;
 }
 
+.bg-black {
+  background-color: #000;
+}
+
 // replace with .main-heading in html
 .hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
   font-family: 'Roboto', sans-serif;
@@ -90,11 +94,6 @@
 
  .navbar-toggler {
    border: none;
- }
-
-// FIXME: only works in Google Chrome
- .main-nav-div {
-   max-width: 32%;
  }
 
  .fa-bars {
