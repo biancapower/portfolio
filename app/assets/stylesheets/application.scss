@@ -60,6 +60,10 @@
   background-color: #000;
 }
 
+.bg-menu {
+  background-color: #FF206E;
+}
+
 // replace with .main-heading in html
 .hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
   font-family: 'Roboto', sans-serif;
@@ -240,6 +244,10 @@
     background-color: #FF206E;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
+  }
+
+  .bg-menu {
+    background-color: #000;
   }
 
 }
