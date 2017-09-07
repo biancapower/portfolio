@@ -2,12 +2,13 @@
   <div class="row header">
 
     <!-- MENU -->
-    <div class="col d-flex justify-content-start align-items-center pl-sm-5">
-      <nav class="navbar navbar-light main-nav"> <!-- to expand: navbar-expand-md -->
+    <div class="col order-md-2 d-flex justify-content-start pl-md-5">
+      <!-- removed to stop menu jumping too high: align-items-center -->
+      <nav class="navbar navbar-light navbar-expand-md main-nav"> <!-- to expand: navbar-expand-md -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars text-white"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse bg-pink pl-4 pr-4 pt-2 pb-2" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link text-white" href="/">Home<span class="sr-only">(current)</span></a>
@@ -27,7 +28,7 @@
     </div>
 
     <!-- LOGO -->
-    <div class="col d-flex justify-content-center align-items-center">
+    <div class="col order-md-1 d-flex justify-content-center justify-content-md-start pl-md-5 align-items-center">
       <div class="row">
         <%= link_to root_path do %>
           <%= image_tag "logo-transparent.png", class:"logo img-fluid" %>
@@ -36,7 +37,7 @@
     </div>
 
     <!-- SOCIAL ICONS -->
-    <div class="col d-flex justify-content-end align-items-center pr-4 pr-sm-5">
+    <div class="col order-md-3 d-flex justify-content-end align-items-center pr-4 pr-sm-5">
       <div class="row social-icons pt-3">
         <div class="col-6">
           <a href="https://github.com/biancapower/" target="_blank">

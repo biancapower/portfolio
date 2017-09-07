@@ -26,6 +26,12 @@
   width: 4em;
 }
 
+.main-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
 .text-white {
   color: #FFF;
 }
@@ -38,6 +44,19 @@
   text-decoration: underline;
 }
 
+.bg-yellow {
+  background-color: #FBFF12;
+}
+
+.bg-blue {
+  background-color: #41EAD4;
+}
+
+.bg-pink {
+  background-color: #FF206E;
+}
+
+// replace with .main-heading in html
 .hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -170,6 +189,25 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+//***** ABOUT PAGE *****//
+
+.about-page-section p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  width: 80%;
+}
+
+.about-page-section th {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+//***** MEDIA QUERIES *****//
+
+// medium breakpoint
 @media (min-width: 768px) {
 
   .fa-bars {
@@ -187,6 +225,12 @@
 
   .header {
     height: 120px;
+  }
+
+  .main-nav {
+    background-color: #FF206E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
   }
 
 }
