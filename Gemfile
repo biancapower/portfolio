@@ -14,6 +14,8 @@ gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
+# sitemap_generator
+gem 'sitemap_generator'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

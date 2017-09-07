@@ -83,8 +83,18 @@
    background-color: #FF206E;
  }
 
+ .navbar-fixed {
+    position: relative;
+    top: 50px;
+ }
+
  .navbar-toggler {
    border: none;
+ }
+
+// FIXME: only works in Google Chrome
+ .main-nav-div {
+   max-width: 32%;
  }
 
  .fa-bars {
