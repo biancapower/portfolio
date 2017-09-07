@@ -1,35 +1,7 @@
 <div class="col projects-section" id="projects-section">
   <div class="row pt-5">
-    <div class="col-12 text-center pb-md-4">
+    <div class="col-12 text-center pb-4 pb-sm-5">
       <h1 class="projects-heading">Projects</h1>
-    </div>
-  </div>
-
-  <!-- HIDE FROM md -->
-  <div class="row project-section-social-links pt-5 d-md-none">
-    <div class="col-6 col-md-6 d-flex justify-content-center pb-5">
-      <a href="https://codepen.io/BiancaPower/" target="_blank" class="text-black">
-        <p><span class="fa fa-codepen pl-1 pr-1"></span></p>
-      </a>
-    </div>
-    <div class="col-6 col-md-6 d-flex justify-content-center">
-      <a href="https://github.com/biancapower/" target="_blank" class="text-black">
-        <p><span class="fa fa-github-alt"></span></p>
-      </a>
-    </div>
-  </div>
-
-  <!-- HIDE UNTIL md -->
-  <div class="row project-section-social-links pt-5 d-none d-md-flex">
-    <div class="col-6 col-md-6 d-flex justify-content-center pb-5">
-      <a href="https://codepen.io/BiancaPower/" target="_blank" class="text-black">
-        <p>C<span class="fa fa-codepen pl-1 pr-1"></span>depen</p>
-      </a>
-    </div>
-    <div class="col-6 col-md-6 d-flex justify-content-center">
-      <a href="https://github.com/biancapower/" target="_blank" class="text-black">
-        <p><span class="fa fa-github-alt"></span>  GitHub</p>
-      </a>
     </div>
   </div>
 
@@ -38,17 +10,17 @@
     <div id="carouselExampleControls" class="carousel slide projects-carousel" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <%= link_to "/projects/css-zen-garden" do %> <!-- FIXME: target = "_blank" -->
+          <%= link_to "http://css-zen-garden.biancapower.com/", target: "_blank" do %> <!-- FIXME: target = "_blank" -->
             <%= image_tag "zengarden-image.png", class:"d-block w-100" %>
           <% end %>
         </div>
         <div class="carousel-item">
-          <%= link_to "/projects/amaysim-clone" do %> <!-- FIXME: target = "_blank" -->
+          <%= link_to "https://bpower-amaysim-clone.herokuapp.com/", target: "_blank" do %> <!-- FIXME: target = "_blank" -->
             <%= image_tag "amaysim-image.png", class:"d-block w-100" %>
           <% end %>
         </div>
         <div class="carousel-item">
-          <%= link_to "/projects/eb-games-redesign" do %> <!-- FIXME: target = "_blank" -->
+          <%= link_to "http://eb-games-redesign.biancapower.com/", target: "_blank" do %> <!-- FIXME: target = "_blank" -->
             <%= image_tag "ebgames-image.png", class:"d-block w-100" %>
           <% end %>
         </div>
@@ -64,9 +36,38 @@
     </div>
   </div>
   <!-- end CAROUSEL -->
-  <div class="row pb-5">
+
+  <!-- HIDE FROM md -->
+  <div class="row project-section-social-links d-md-none">
+    <div class="col-6 col-md-6 d-flex justify-content-center pb-5">
+      <a href="https://codepen.io/BiancaPower/" target="_blank" class="text-black">
+        <p><span class="fa fa-codepen pl-1 pr-1"></span></p>
+      </a>
+    </div>
+    <div class="col-6 col-md-6 d-flex justify-content-center">
+      <a href="https://github.com/biancapower/" target="_blank" class="text-black">
+        <p><span class="fa fa-github-alt"></span></p>
+      </a>
+    </div>
+  </div>
+
+  <!-- HIDE UNTIL md -->
+  <div class="row project-section-social-links d-none d-md-flex">
+    <div class="col-6 col-md-6 d-flex justify-content-center pb-5">
+      <a href="https://codepen.io/BiancaPower/" target="_blank" class="text-black">
+        <p>C<span class="fa fa-codepen pl-1 pr-1"></span>depen</p>
+      </a>
+    </div>
+    <div class="col-6 col-md-6 d-flex justify-content-center">
+      <a href="https://github.com/biancapower/" target="_blank" class="text-black">
+        <p><span class="fa fa-github-alt"></span>  GitHub</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- <div class="row pb-5">
     <div class="col d-flex justify-content-center">
       <button type="button" class="btn btn-pink"><a class="text-white" href="/projects" target="_blank">More</a></button>
     </div>
-  </div>
+  </div> -->
 </div>
