@@ -287,4 +287,43 @@
    position: relative;
    top: -45px;
   }
+
+  //***** SCROLLING MOUSE *****//
+  .mouse{
+    width: 100px;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+  }
+  .mouse-icon{
+     width: 25px;
+     height: 45px;
+     border: 2px solid #FF206E;
+     border-radius: 15px;
+     position: relative;
+     text-align: center;
+  }
+  .mouse-wheel{
+    height: 6px;
+    margin: 2px auto 0;
+    display: block;
+    width: 3px;
+    background-color: #FF206E;
+    border-radius: 50%;
+    animation: 1.6s ease infinite wheel-up-down;
+  }
+
+  @keyframes wheel-up-down {
+  	0% {
+  	    margin-top: 2px;
+  	    opacity: 0;
+  	}
+  	30% {
+  	    opacity: 1;
+  	}
+  	100% {
+  	    margin-top: 20px;
+  	    opacity: 0;
+  	}
+  }
 }
