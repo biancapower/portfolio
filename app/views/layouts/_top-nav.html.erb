@@ -1,10 +1,42 @@
 <header class="sticky-top">
+
   <div class="row header">
 
+
+
+    <!-- LOGO -->
+    <div class="col order-md-1 d-flex justify-content-start pl-5 align-items-center">
+      <div class="row">
+        <%= link_to root_path do %>
+          <%= image_tag "logo-transparent.png", class:"logo img-fluid" %>
+        <% end %>
+      </div>
+    </div>
+
+    <!-- SOCIAL ICONS -->
+    <div class="col order-md-3 d-flex justify-content-end align-items-center pr-5">
+      <div class="row social-icons pt-3">
+        <div class="col-6">
+          <a href="https://github.com/biancapower/" target="_blank">
+            <p class="fa fa-github text-white"></p>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="https://www.linkedin.com/in/drbiancapower/" target="_blank">
+            <p class="fa fa-linkedin text-white"></p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row menu-row bg-pink">
     <!-- MENU -->
-    <div class="col order-md-2 d-flex justify-content-start pl-md-5">
-      <!-- removed to stop menu jumping too high: align-items-center -->
-      <nav class="navbar navbar-light navbar-expand-md main-nav"> <!-- to expand: navbar-expand-md -->
+
+    <div class="col order-md-2 d-flex justify-content-center align-items-center pl-md-5">
+      <!-- remove to stop menu jumping too high: align-items-center -->
+      <nav class="navbar navbar-light navbar-expand-md main-nav d-flex justify-content-center"> <!-- to expand: navbar-expand-md -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars text-white"></span>
         </button>
@@ -26,31 +58,5 @@
         </div>
       </nav>
     </div>
-
-    <!-- LOGO -->
-    <div class="col order-md-1 d-flex justify-content-center justify-content-md-start pl-md-5 align-items-center">
-      <div class="row">
-        <%= link_to root_path do %>
-          <%= image_tag "logo-transparent.png", class:"logo img-fluid" %>
-        <% end %>
-      </div>
-    </div>
-
-    <!-- SOCIAL ICONS -->
-    <div class="col order-md-3 d-flex justify-content-end align-items-center pr-4 pr-sm-5">
-      <div class="row social-icons pt-3">
-        <div class="col-6">
-          <a href="https://github.com/biancapower/" target="_blank">
-            <p class="fa fa-github text-white"></p>
-          </a>
-        </div>
-        <div class="col-6">
-          <a href="https://www.linkedin.com/in/drbiancapower/" target="_blank">
-            <p class="fa fa-linkedin text-white"></p>
-          </a>
-        </div>
-      </div>
-    </div>
-
   </div>
 </header>
