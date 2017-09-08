@@ -87,15 +87,6 @@
    width: 100%;
  }
 
- .main-nav {
-   background-color: #FF206E;
- }
-
- .navbar-fixed {
-    position: relative;
-    top: 50px;
- }
-
  .navbar-toggler {
    border: none;
  }
@@ -111,6 +102,13 @@
 
  .social-icons p {
    font-size: 20px;
+ }
+
+ .menu-row {
+   // added to restrict width of row to viewport //
+   margin-left: 0;
+   margin-right: 0;
+   width: 100%;
  }
 
 // ABOUT //
@@ -241,7 +239,6 @@
   }
 
   .main-nav {
-    background-color: #FF206E;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
   }
@@ -250,4 +247,25 @@
     background-color: #000;
   }
 
+  // .navbar-fixed {
+  //    position: relative;
+  //    top: 50px;
+  // }
+
+  .menu-row {
+    height: 0;
+  }
+
+  /* FireFox 3 and Up */
+  html>/**/body .menu-row, x:-moz-any-link, x:default {
+   position: relative;
+   top: -45px;
+  }
+
+  /* Safari 9.0+ */
+
+  .menu-row:not(:root:root) {
+   position: relative;
+   top: -45px;
+  }
 }
