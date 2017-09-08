@@ -77,6 +77,13 @@
 
 // HEADER //
 
+ .anchor {
+   display: block;
+   height: 420px;
+   margin-top: -420px;
+   visibility: hidden;
+ }
+
  .header {
    background-color: #FF206E;
    height: 100px;
@@ -259,6 +266,13 @@
 
   .menu-row {
     height: 0;
+  }
+
+  .anchor {
+    display: block;
+    height: 120px;
+    margin-top: -120px;
+    visibility: hidden;
   }
 
   /* FireFox 3 and Up */
