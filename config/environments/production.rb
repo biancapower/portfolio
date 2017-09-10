@@ -88,4 +88,18 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'mail.biancapower.com',
+    port:                 587,
+    domain:               'biancapower.com',
+    user_name:            'no-reply@biancapower.com',
+    password:             'power687',
+    authentication:       'plain',
+    enable_starttls_auto:  true,
+    openssl_verify_mode:  'none'
+  }
+
+  config.action_mailer.perform_deliveries = true
 end
