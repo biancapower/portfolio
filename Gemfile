@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.3'
 # Bootstrap
 gem 'bootstrap', '~> 4.0.0.beta'
+# form: https://github.com/bootstrap-ruby/rails-bootstrap-forms
+gem 'bootstrap_form'
 # JQuery
 gem 'jquery-rails'
 # Use postgresql as the database for Active Record

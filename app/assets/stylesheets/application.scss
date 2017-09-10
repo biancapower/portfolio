@@ -12,18 +12,25 @@
  *
  *= require_tree .
  *= require_self
+ *= require rails_bootstrap_forms
  */
+
 
  // font-family: 'Roboto', sans-serif;
  // FIXME: change from px to em
 
  @import "bootstrap";
 
+.border-right {
+  border-right: 1px solid #FDFDFD;
+}
+
 .btn-pink {
   background-color: #FF206E;
   color: #FFF;
   font-size: 1.3em;
   width: 4em;
+  cursor: pointer;
 }
 
 .main-heading {
@@ -247,12 +254,17 @@
   background-color: #FBFF12;
 }
 
-.btn-pink-contact {
-  background-color: #FF206E;
-  color: #FFF;
-  font-size: 1.3em;
-  width: 7em;
-}
+// .btn-pink-contact {
+//   background-color: #FF206E;
+//   color: #FFF;
+//   font-size: 1.3em;
+//   width: 7em;
+// }
+//
+// .btn-send {
+//   border: none;
+//
+// }
 
 .contact-text {
   font-family: 'Roboto', sans-serif;
