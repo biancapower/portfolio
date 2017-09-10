@@ -1,2 +1,27 @@
-<h1>Submission#submit</h1>
-<p>Find me in app/views/submission/submit.html.erb</p>
+<div class="bg-yellow">
+  <div class="container submission-thanks">
+
+    <div class="col">
+      <div class="row pb-5">
+        <div class="col d-flex justify-content-center">
+          <h1>Thanks for your message!</h1>
+        </div>
+      </div>
+      <div class="row bg-pink text-white pl-5 pr-5 rounded">
+        <div class="col pt-5 pb-5">
+          <h4 class="pb-5 font-weight-bold">Your message:</h4>
+          <p><strong>Name:</strong> <%= @submission.name %></p>
+          <p><strong>Email:</strong> <%= @submission.email %></p>
+          <p><strong>Phone:</strong> <%= @submission.phone %></p>
+          <p><strong>Message:</strong> <%= @submission.message %></p>
+        </div>
+
+      </div>
+      <div class="row pt-5 text-center">
+        <div class="col d-flex justify-content-center">
+          <h3>I'll get back to you soon 👍</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

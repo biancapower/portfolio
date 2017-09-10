@@ -131,6 +131,11 @@
 
 // ABOUT //
 
+.profile-photo {
+  max-width: 250px;
+  box-shadow: 6px 6px 10px #aaa;
+}
+
 .about-section {
   background-color: #FBFF12;
   padding: 5%;
@@ -271,6 +276,16 @@
   font-size: 1.8em;
 }
 
+.control-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+textarea {
+  min-height: 10.5em;
+}
+
 // FOOTER //
 
 .footer {
@@ -328,6 +343,14 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.2em;
+}
+
+//***** FORM SUBMISSION PAGE *****//
+
+.submission-thanks {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 //***** MEDIA QUERIES *****//
