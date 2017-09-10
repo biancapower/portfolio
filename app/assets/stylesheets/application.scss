@@ -21,9 +21,7 @@
 
  @import "bootstrap";
 
-.border-right {
-  border-right: 1px solid #FDFDFD;
-}
+
 
 .btn-pink {
   background-color: #FF206E;
@@ -133,7 +131,7 @@
 
 .profile-photo {
   max-width: 250px;
-  box-shadow: 6px 6px 10px #aaa;
+  border-radius: 2px
 }
 
 .about-section {
@@ -332,6 +330,11 @@ textarea {
 
 //***** ABOUT PAGE *****//
 
+.about-page a {
+  color: white;
+  text-decoration: underline;
+}
+
 .about-page-section p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -357,6 +360,10 @@ textarea {
 
 // medium breakpoint
 @media (min-width: 768px) {
+
+  .border-right {
+    border-right: 1px solid #FDFDFD;
+  }
 
   .fa-bars {
     font-size: 40px !important;
@@ -415,13 +422,13 @@ textarea {
   }
 
   //***** SCROLLING MOUSE *****//
-  .mouse{
+  .mouse {
     width: 100px;
     position: fixed;
     bottom: 2%;
     left: 2%;
   }
-  .mouse-icon{
+  .mouse-icon {
      width: 25px;
      height: 45px;
      border: 2px solid #FF206E;
@@ -429,7 +436,7 @@ textarea {
      position: relative;
      text-align: center;
   }
-  .mouse-wheel{
+  .mouse-wheel {
     height: 6px;
     margin: 2px auto 0;
     display: block;
