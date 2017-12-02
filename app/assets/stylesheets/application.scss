@@ -21,146 +21,88 @@
 
  @import "bootstrap";
 
+body {
+  background-color: #202020;
+}
 
+.container-fluid {
+   padding-right:0;
+   padding-left:0;
+   margin-right:auto;
+   margin-left:auto;
+   height: 100%;
+}
 
-.btn-pink {
-  background-color: #FF206E;
-  color: #FFF;
+.btn-white {
+  background-color: #F9F9F9;
+  color: #202020;
   font-size: 1.3em;
   width: 4em;
   cursor: pointer;
 }
 
-.main-heading {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 2.5em;
-}
-
 .text-white {
-  color: #FFF;
+  color: #F9F9F9;
 }
 
 .text-black {
-  color: #000;
+  color: #202020;
 }
 
 .underlined {
   text-decoration: underline;
 }
 
-.bg-yellow {
-  background-color: #FBFF12;
-}
-
-.bg-blue {
-  background-color: #41EAD4;
-}
-
-.bg-pink {
-  background-color: #FF206E;
-}
-
 .bg-black {
-  background-color: #000;
+  background-color: #202020;
 }
 
-.bg-menu {
-  background-color: #FF206E;
+.bg-white {
+  background-color: #202020;
 }
 
-// replace with .main-heading in html
-.hi, .projects-heading, .contact-heading, .project-zen h1, .project-ebgames h1, .project-amaysim h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 2.5em;
+.profile-photo-bg {
+  padding: 0;
+  margin: 0;
+  // padding-top: 15%;
+  background-color: #202020;
 }
 
-.codepen-projects, .github-projects {
-  font-size: 50px !important;
+.intro-text {
+  margin-top: -100px;
 }
 
-// HEADER //
-
- .anchor {
-   display: block;
-   height: 420px;
-   margin-top: -420px;
-   visibility: hidden;
- }
-
- .header {
-   background-color: #FF206E;
-   height: 100px;
-
-  // added to restrict width of row to viewport //
-   margin-left: 0;
-   margin-right: 0;
-   width: 100%;
- }
-
- .navbar-toggler {
-   border: none;
- }
-
- .fa-bars {
-   font-size: 30px !important;
- }
-
- .logo {
-   height: 50px;
-   border: 2px solid white;
- }
-
- .social-icons p {
-   font-size: 20px;
- }
-
- .menu-row {
-   // added to restrict width of row to viewport //
-   margin-left: 0;
-   margin-right: 0;
-   width: 100%;
- }
-
- .main-nav {
-   width: 100%;
- }
-
-// ABOUT //
-
-.profile-photo {
-  max-width: 250px;
-  border-radius: 2px
+.social-icon-homepage {
+  color: #202020;
+  z-index: 9;
+  position: absolute;
 }
 
-.about-section {
-  background-color: #FBFF12;
-  padding: 5%;
+.social-icon-homepage-github {
+  top: 4.5%;
+  right: 8.5%;
 }
 
-.about-blurb p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  width: 60%;
+.social-icon-homepage-linkedin {
+  top: 11.5%;
+  right: 8%;
 }
 
-// PROJECTS SECTION //
-
-.projects-section {
-  background-color: #41EAD4;
+.social-icon-homepage-medium {
+  top: 19.5%;
+  right: 8%;
 }
 
-.projects-carousel {
-  width: 80%;
+.social-icon-homepage-twitter {
+  top: 27.5%;
+  right: 8%;
 }
 
-.project-section-social-links {
-  font-size: 2em;
+.big-font {
+  font-size: 40px;
 }
 
-// animated cube //
+// ANIMATED CUBE //
 
 @keyframes spincube {
     from, to {
@@ -252,18 +194,6 @@
   background-color: #FBFF12;
 }
 
-// .btn-pink-contact {
-//   background-color: #FF206E;
-//   color: #FFF;
-//   font-size: 1.3em;
-//   width: 7em;
-// }
-//
-// .btn-send {
-//   border: none;
-//
-// }
-
 .contact-text {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
@@ -277,70 +207,6 @@
 
 textarea {
   min-height: 10.5em;
-}
-
-// FOOTER //
-
-.footer {
-  background-color: #FF206E;
-  font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
-}
-
-//***** PROJECTS PAGE *****//
-
-.a-project-section {
-  padding-top: 4.5em !important;
-  padding-bottom: 4.5em !important;
-}
-
-.projects-social-links {
-  background-color: #41EAD4;
-  font-size: 2em;
-}
-
-.project-zen {
-  background-color: #FBFF12;
-}
-
-.project-ebgames {
-  background-color: #41EAD4;
-}
-
-.project-amaysim {
-  background-color: #FBFF12;
-}
-
-.project-feature-image {
-  max-width: 80%;
-  margin: 2.5em auto;
-}
-
-.project-feature-text {
-  font-size: 1.3em;
-  max-width: 78%;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-//***** ABOUT PAGE *****//
-
-.about-page a {
-  color: white;
-  text-decoration: underline;
-}
-
-.about-page-section p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  width: 80%;
-}
-
-.about-page-section th {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
 }
 
 //***** FORM SUBMISSION PAGE *****//
