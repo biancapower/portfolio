@@ -23,6 +23,7 @@
 
 body {
   background-color: #202020;
+  font-family: Helvetica;
 }
 
 .container-fluid {
@@ -69,7 +70,11 @@ body {
 }
 
 .intro-text {
-  margin-top: -100px;
+  margin-top: -40%;
+}
+
+#intro-heading {
+  padding-top: 15%;
 }
 
 .social-icon-homepage {
