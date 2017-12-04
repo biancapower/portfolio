@@ -1,11 +1,15 @@
 class PagesController < ApplicationController
   def homepage
-    @submission = Submission.new
+
   end
 
   def projects
   end
 
   def about
+  end
+
+  def contact
+    @submission = Submission.new
   end
 end
