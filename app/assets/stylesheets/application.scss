@@ -283,10 +283,27 @@ textarea {
   }
 
   .intro-text {
-    margin-top: 0;
+    margin-top: 10%;
+  }
+
+  #intro-heading {
+    font-size: 2.5em;
+  }
+
+  .intro-p {
+    font-size: 1.4em;
   }
 
   .social-icon-homepage {
     visibility: hidden;
   }
+
+  .social-btm a {
+    color: white;
+    font-size: 2em;
+  }
 }
+
+// @media (min-width: 768px) {
+//
+// }
