@@ -257,6 +257,11 @@ textarea {
   padding-bottom: 10%;
 }
 
+.hide-md {
+  visibility: hidden;
+  margin: -5%;
+}
+
 //***** MEDIA QUERIES *****//
 
 // medium breakpoint
@@ -301,6 +306,16 @@ textarea {
   .social-btm a {
     color: white;
     font-size: 2em;
+  }
+
+  .hide-md {
+    visibility: visible;
+    margin: inherit;
+  }
+
+  .backwards-colours {
+    background-color: #f9f9f9;
+    color: #202020;
   }
 }
 
