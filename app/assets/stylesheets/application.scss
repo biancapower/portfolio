@@ -262,107 +262,6 @@ textarea {
 // medium breakpoint
 @media (min-width: 768px) {
 
-  .border-right {
-    border-right: 1px solid #FDFDFD;
-  }
-
-  .fa-bars {
-    font-size: 40px !important;
-  }
-
-  .logo {
-    height: 70px;
-    border: 2px solid white;
-  }
-
-  .social-icons p {
-    font-size: 30px;
-  }
-
-  .header {
-    height: 120px;
-  }
-
-  .main-nav {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    width: auto;
-  }
-
-  .bg-menu {
-    background-color: #000;
-  }
-
-  // .navbar-fixed {
-  //    position: relative;
-  //    top: 50px;
-  // }
-
-  .menu-row {
-    height: 0;
-  }
-
-  .anchor {
-    display: block;
-    height: 120px;
-    margin-top: -120px;
-    visibility: hidden;
-  }
-
-  /* FireFox 3 and Up */
-  html>/**/body .menu-row, x:-moz-any-link, x:default {
-   position: relative;
-   top: -45px;
-  }
-
-  /* Safari 9.0+ */
-
-  .menu-row:not(:root:root) {
-   position: relative;
-   top: -45px;
-  }
-
-  //***** SCROLLING MOUSE *****//
-  .mouse {
-    width: 100px;
-    position: fixed;
-    bottom: 2%;
-    left: 2%;
-  }
-  .mouse-icon {
-     width: 25px;
-     height: 45px;
-     border: 2px solid #FF206E;
-     border-radius: 15px;
-     position: relative;
-     text-align: center;
-  }
-  .mouse-wheel {
-    height: 6px;
-    margin: 2px auto 0;
-    display: block;
-    width: 3px;
-    background-color: #FF206E;
-    border-radius: 50%;
-    animation: 1.6s ease infinite wheel-up-down;
-  }
-
-  @keyframes wheel-up-down {
-  	0% {
-  	    margin-top: 2px;
-  	    opacity: 0;
-  	}
-  	30% {
-  	    opacity: 1;
-  	}
-  	100% {
-  	    margin-top: 20px;
-  	    opacity: 0;
-  	}
-  }
-}
-
-@media screen and (min-width: 520px) {
   .contact-page-right {
     padding-top: 10%;
     padding-left: 5%;
@@ -381,5 +280,13 @@ textarea {
   .projects-page-right {
     padding-left: 8%;
     padding-top: 10%;
+  }
+
+  .intro-text {
+    margin-top: 0;
+  }
+
+  .social-icon-homepage {
+    visibility: hidden;
   }
 }
