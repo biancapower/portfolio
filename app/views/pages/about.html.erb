@@ -3,7 +3,10 @@
     <div class="row d-flex">
 
       <div class="col-12 col-md-6 bg-black text-white backwards-colours order-md-2 pt-5">
-        <div class="row">
+        <div class="">
+          <%= render 'layouts/main-nav' %>
+        </div>
+        <div class="row pt-5">
           <div class="col">
             <h1 class="p-5 text-center d-md-none">About</h1>
             <%= image_tag "bondi_view.jpg", class:"w-100 pt-md-5" %>
@@ -26,7 +29,10 @@
       </div>
 
       <div class="col-12 col-md-6 bg-black text-white order-md-1">
-        <div class="row">
+        <div class="hide-menu-small">
+          <%= render 'layouts/main-nav' %>
+        </div>
+        <div class="row pt-4">
           <div class="col">
             <div class="">
               <h1 class="p-0 p-md-5 text-center hide-md">About</h1>

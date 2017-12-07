@@ -10,23 +10,25 @@
 
       <!-- RIGHT COLUMN -->
       <div class="col-12 col-md-6 bg-black text-white order-md-2">
+
+
+
         <div class="row">
-          <div class="col profile-photo-bg mt-md-5 mt-lg-0">
-            <%= image_tag "bianca_bw.jpg", class:"img-fluid profile-photo mt-md-5 mt-lg-0" %>
+          <div class="col profile-photo-bg">
+            <%= image_tag "bianca_bw.jpg", class:"img-fluid profile-photo" %>
           </div>
         </div>
-        <div class="row text-center pt-md-5 pt-lg-0">
-          <div class="col text-center">
-            <%= link_to "https://www.worldcubeassociation.org/persons/2016POWE04", target: "_blank" do %>
-              <%= image_tag "rubiks_cube.png", class:"img-fluid d-lg-none" %>
-            <% end %>
-          </div>
-        </div>
+
       </div>
 
       <!-- LEFT COLUMN -->
-      <div class="col-12 col-md-6 bg-black text-white intro-text order-md-1">
-        <div class="row text-center pr-4 pl-4">
+      <div class="col-12 col-md-6 bg-black text-white order-md-1">
+
+        <div class="hide-menu-small">
+          <%= render 'layouts/main-nav' %>
+        </div>
+
+        <div class="row text-center pr-4 pl-4 intro-text">
           <div class="col">
             <h3 class="pb-5" id="intro-heading">Hi, I'm Bianca</h3>
             <p class="pt-4 pb-2 pr-5 pl-5 intro-p">I’m a full stack developer with experience in Ruby on Rails, Node, React and more.</p>
