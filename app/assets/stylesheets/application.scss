@@ -16,10 +16,9 @@
  */
 
 
- // font-family: 'Roboto', sans-serif;
- // FIXME: change from px to em
+// fonts used: font-family: 'Roboto', sans-serif;
 
- @import "bootstrap";
+@import "bootstrap";
 
 body {
   margin: 0;
@@ -77,7 +76,6 @@ body {
 .profile-photo-bg {
   padding: 0;
   margin: 0;
-  // padding-top: 15%;
   background-color: #202020;
 }
 
@@ -235,15 +233,6 @@ body {
 
 // CONTACT SECTION //
 
-.contact-section {
-  // background-color: #FBFF12;
-}
-
-.contact-text {
-  // font-family: 'Roboto', sans-serif;
-  // font-size: 1.8em;
-}
-
 .control-label {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
@@ -261,6 +250,8 @@ textarea {
   padding-top: 10%;
   padding-bottom: 10%;
 }
+
+//***** NAVS *****//
 
 .hide-md {
   visibility: hidden;
@@ -284,6 +275,42 @@ textarea {
   position:relative;
   overflow-y: visible;
   z-index: 10;
+}
+
+.social-icons-right-nav {
+  display: none;
+}
+
+.nav-font {
+  font-size: 2em;
+}
+
+.nav-font a {
+  color: #202020;
+}
+
+.social-icon-nav-top-right {
+  position: absolute;
+}
+
+.social-icon-nav-top-right-github {
+  top: 3%;
+  right: 40%;
+}
+
+.social-icon-nav-top-right-medium {
+  top: 3%;
+  right: 29%;
+}
+
+.social-icon-nav-top-right-twitter {
+  top: 3%;
+  right: 19%;
+}
+
+.social-icon-nav-top-right-linkedin {
+  top: 2.8%;
+  right: 8%;
 }
 
 
@@ -349,6 +376,10 @@ textarea {
   .nav-hide-medium {
     display: none;
   }
+
+  .bondi-view {
+    margin-top: 15%;
+  }
 }
 
 @media (min-width: 860px) {
@@ -367,7 +398,9 @@ textarea {
     visibility: hidden;
   }
 
-
+  .social-icons-right-nav {
+    display: inherit;
+  }
 
 }
 
