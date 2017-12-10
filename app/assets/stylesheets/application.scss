@@ -22,13 +22,17 @@
  @import "bootstrap";
 
 body {
+  margin: 0;
+  box-sizing: border-box;
   background-color: #202020;
   font-family: Helvetica;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container-fluid {
-   padding-right:0;
-   padding-left:0;
+   padding-right:0px;
+   padding-left:0px;
    margin-right:auto;
    margin-left:auto;
    height: 100%;
@@ -79,6 +83,7 @@ body {
 
 .intro-text {
   margin-top: -20%;
+  background-color: #202020;
 }
 
 #intro-heading {
@@ -220,7 +225,7 @@ body {
 }
 
 .cube-text span {
-   color: white;
+   color: #f9f9f9;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
@@ -266,8 +271,19 @@ textarea {
   visibility: hidden;
 }
 
+.main-nav a {
+  color: #f9f9f9;
+}
+
 .hide-menu-small {
-  visibility: hidden;
+  display: none;
+}
+
+.homepage-nav {
+  height: 0px;
+  position:relative;
+  overflow-y: visible;
+  z-index: 10;
 }
 
 
@@ -313,7 +329,7 @@ textarea {
   }
 
   .social-btm a {
-    color: white;
+    color: #f9f9f9;
     font-size: 1em;
   }
 
@@ -328,13 +344,16 @@ textarea {
   }
 
   .hide-menu-small {
-    visibility: visible;
+    display: block;
+  }
+  .nav-hide-medium {
+    display: none;
   }
 }
 
 @media (min-width: 860px) {
   .main-nav {
-    visibility: visible;
+    visibility: inherit;
     padding: 6% 0 0 6%;
     font-size: 1.2em;
   }
@@ -348,11 +367,13 @@ textarea {
     visibility: hidden;
   }
 
+
+
 }
 
 @media (min-width: 1050px) {
   .social-btm a {
-    color: white;
+    color: #f9f9f9;
     font-size: 2em;
   }
 }
